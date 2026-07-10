@@ -1,0 +1,1 @@
+- [Book Haven stack decisions](bookhaven-stack.md) — Spring Boot 3 + PostgreSQL (not MySQL) + React Vite; queryKey required in all hook option objects.
