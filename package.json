@@ -12,7 +12,27 @@
     "@replit/connectors-sdk": "^0.4.1"
   },
   "devDependencies": {
+    "@esbuild/win32-x64": "0.27.3",
+    "@tailwindcss/oxide-win32-x64-msvc": "^4.3.2",
+    "lightningcss-win32-x64-msvc": "^1.32.0",
     "prettier": "^3.9.4",
     "typescript": "~5.9.3"
+  },
+  "pnpm": {
+    "supportedArchitectures": {
+      "os": [
+        "current",
+        "win32",
+        "linux",
+        "darwin"
+      ],
+      "cpu": [
+        "x64",
+        "arm64"
+      ]
+    },
+    "approvedBuilds": {
+      "esbuild": "0.27.3"
+    }
   }
 }
